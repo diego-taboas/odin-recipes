@@ -1,0 +1,21 @@
+.main-header {
+    font-family: fantasy, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 350;
+}
+
+.recipes-image {
+    height: auto;
+    width: 590px;
+}
+
+.sub-header {
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#ingredients-heading {
+    font-family: fantasy, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 350;
+}
