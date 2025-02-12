@@ -1,21 +1,97 @@
-.main-header {
-    font-family: fantasy, Helvetica, sans-serif;
-    font-size: 3em;
-    font-weight: 350;
+@font-face {
+    font-family: 'CopperPot', 'SourceSansPro';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.page-container {
+    padding-top: 3.5em;
+}
+
+.box {
+    margin-left: 250px;
+    margin-right: auto;
+    max-width: 65ch;
+    
+}
+
+.article-heading {
+    font-family: "CopperPot", Helvetica, sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    color: #000000F2
 }
 
 .recipes-image {
     height: auto;
-    width: 590px;
+    width: 520px;
 }
 
 .sub-header {
-    font-family: Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "SourceSansPro", Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 #ingredients-heading {
-    font-family: fantasy, Helvetica, sans-serif;
-    font-size: 2em;
-    font-weight: 350;
+    font-family: "CopperPot", Helvetica, sans-serif;
+    font-size: 18px;
 }
+
+.recipe-details_item {
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: .3125rem;
+    padding: 1.75rem 1.5rem 1.5rem;
+}
+
+.recipe-details_label {
+    font-family: "SourceSansPro", helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+.recipe-details_value {
+    font-family: "SourceSansPro", helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ingredients-list_item {
+    margin-bottom: 1rem;
+}
+
+.recipe-details_header {
+    border-top: 12px solid #e7ab46;
+}
+
+.article-preheading {
+    margin: 2rem;
+    font-size: 14px;
+    font-family: "SourceSansPro", helvetica, sans-serif;
+    padding: 0px;
+    padding-left: 0px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.95);
+
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: underline; 
+  } 
+  a:active { 
+    text-decoration: underline; 
+  }
